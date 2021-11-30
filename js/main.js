@@ -109,7 +109,7 @@ function renderColorPalette() {
     }
 
     div.addEventListener('click', (event) => {
-      color = newColor;
+      color = colorItem;
       renderColorPalette();
     });
 
